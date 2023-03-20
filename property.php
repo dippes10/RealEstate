@@ -161,8 +161,6 @@ include("config.php");
                             <button type="submit" value="submit" name="calc" class="btn btn-danger mt-4">Calculate Instalment</button>
                         </form>
                         </div>
-
-                        <h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4 mt-5">Featured</h4>
                         <ul class="property_list_widget">
 							
                             <?php 

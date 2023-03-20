@@ -93,7 +93,7 @@
   float: right;
 }
 .radio_check label::before {
-  background-color: #66003b;
+  background-color: #3b5998;
   border-radius: 50%;
   content: "";
   height: 40px;
@@ -233,7 +233,7 @@ label.radios {
   top: 5px;
 }
 .color-box li.default {
-  background-color: #66003b;
+  background-color: #3b5998;
 }
 .color-box li.default:before {
   background: #0d1432;
@@ -245,7 +245,7 @@ label.radios {
   background: #0d1432;
 }
 .color-box li.color_3 {
-  background-color: #66003b;
+  background-color: #3b5998;
 }
 .color-box li.color_3:before {
   background: #0d1432;
@@ -538,7 +538,7 @@ a.bg-primary:focus,
   background-color: var(--theme-primary-color);
 }
 .bg-secondary {
-  background-color: #343434 !important;
+  background-color: #3d0734 !important;
 }
 .check-submit li input[type="checkbox"]:checked + label::before,
 .advance-sidebar .radio-check input[type="checkbox"]:checked + label {
@@ -1050,7 +1050,7 @@ button:focus {
 .down-angle-white::before {
   border-left: 15px solid transparent;
   border-right: 40px solid transparent;
-  border-top: 35px solid #66003b;
+  border-top: 35px solid #3b5998;
 }
 .circle,
 .circle img {
@@ -1591,7 +1591,7 @@ blockquote {
 }
 .fileupload-label {
   background: #33003b;
-  border: 2px dashed #66003b;
+  border: 2px dashed #3b5998;
   cursor: pointer;
   padding: 70px 0;
 }
@@ -2076,7 +2076,7 @@ sup {
 }
 .dashboard-panel .success {
   border-left: 5px solid;
-  border-left-color: #66003b;
+  border-left-color: #3b5998;
   border-radius: 0;
 }
 .dashboard-panel .success.alert {

@@ -421,7 +421,7 @@ button.bg-info:hover {
 }
 .bg-warning,
 .badge-warning {
-  background-color: #ffbc34 !important;
+  background-color: #3b5998 !important;
 }
 a.bg-warning:focus,
 a.bg-warning:hover,
@@ -464,7 +464,7 @@ button.bg-danger:hover {
 }
 .text-warning,
 .dropdown-menu > li > a.text-warning {
-  color: #ffbc34 !important;
+  color: #3b5998 !important;
 }
 .text-purple,
 .dropdown-menu > li > a.text-purple {
@@ -606,8 +606,8 @@ button.bg-danger:hover {
   color: #fff;
 }
 .btn-warning {
-  background-color: #ffbc34;
-  border: 1px solid #ffbc34;
+  background-color: #3b5998;
+  border: 1px solid #3b5998;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -643,8 +643,8 @@ button.bg-danger:hover {
 }
 .btn-warning.disabled,
 .btn-warning:disabled {
-  background-color: #ffbc34;
-  border-color: #ffbc34;
+  background-color: #3b5998;
+  border-color: #3b5998;
   color: #fff;
 }
 .btn-danger {
@@ -785,13 +785,13 @@ button.bg-danger:hover {
   box-shadow: none;
 }
 .btn-outline-warning {
-  color: #ffbc34;
-  border-color: #ffbc34;
+  color: #3b5998;
+  border-color: #3b5998;
 }
 .btn-outline-warning:hover {
   color: #212529;
-  background-color: #ffbc34;
-  border-color: #ffbc34;
+  background-color: #3b5998;
+  border-color: #3b5998;
 }
 .btn-outline-warning:focus,
 .btn-outline-warning.focus {
@@ -800,14 +800,14 @@ button.bg-danger:hover {
 .btn-outline-warning.disabled,
 .btn-outline-warning:disabled {
   background-color: transparent;
-  color: #ffbc34;
+  color: #3b5998;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active,
 .btn-outline-warning:not(:disabled):not(.disabled).active,
 .show > .btn-outline-warning.dropdown-toggle {
   color: #212529;
-  background-color: #ffbc34;
-  border-color: #ffbc34;
+  background-color: #3b5998;
+  border-color: #3b5998;
 }
 .btn-outline-warning:not(:disabled):not(.disabled):active:focus,
 .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
@@ -1273,7 +1273,7 @@ button.bg-danger:hover {
   background-color: #e84646;
 }
 .avatar-away:before {
-  background-color: #ffbc34;
+  background-color: #3b5998;
 }
 .avatar .border {
   border-width: 3px !important;
@@ -1401,7 +1401,7 @@ button.bg-danger:hover {
 -----------------------*/
 
 .header {
-  background: #ffbc34;
+  background: #3b5998;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   left: 0;
   position: fixed;

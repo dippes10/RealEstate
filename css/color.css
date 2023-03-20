@@ -2,10 +2,10 @@
 Theme Color All Codes Variable
 ==================================*/
 :root {
-	 --theme-ordinary-color: #33003b;  /* theme ordinay font color ok*/
+	 --theme-ordinary-color: #000;  /* theme ordinay font color ok*/
 }
 :root {
-	 --theme-primary-color: #66003b;  /* theme primary color ok*/
+	 --theme-primary-color: #3b5998;  /* theme primary color ok*/
 }
 :root {
 	 --theme-secondary-color: #00003b;  /* theme secondary color ok*/
@@ -29,10 +29,10 @@ Theme Color All Codes Variable
 	 --text-light-color: #a3a7af;  /* Light text color to use in dark area */
 }
 :root {
-	 --theme-primary-opacity-color: #66003b;  /* theme secondary color */
+	 --theme-primary-opacity-color: #3b5998;  /* theme secondary color */
 }
 :root {
-	 --theme-secondary-opacity-color:#00003b;  /* theme secondary color ok*/
+	 --theme-secondary-opacity-color:#3b5998;  /* theme secondary color ok*/
 }
 :root {
 	 --theme-white-opacity-color: rgba(255, 255, 255, 0.3);  /* theme light color */

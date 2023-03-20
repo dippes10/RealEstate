@@ -32,13 +32,13 @@ if(isset($_REQUEST['reg']))
 			$result=mysqli_query($con, $sql);
 			move_uploaded_file($temp_name1,"admin/user/$uimage");
 			   if($result){
-				   $msg = "<p class='alert alert-success'>Success!</p> ";
+				   $msg = "<p class='alert alert-success'>Register Successfully</p> ";
 			   }
 			   else{
-				   $error = "<p class='alert alert-warning'>Registration Unsuccessful</p> ";
+				   $error = "<p class='alert alert-warning'>Register Not Successfully</p> ";
 			   }
 		}else{
-			$error = "<p class='alert alert-warning'>Please leave no fields unfilled</p>";
+			$error = "<p class='alert alert-warning'>Please Fill all the fields</p>";
 		}
 	}
 	
@@ -77,7 +77,7 @@ if(isset($_REQUEST['reg']))
 
 <!--	Title
 	=========================================================-->
-<title>Home Link</title>
+<title>Real Estate PHP</title>
 </head>
 <body>
 
@@ -95,9 +95,9 @@ if(isset($_REQUEST['reg']))
     <div class="row"> 
         <!--	Header start  -->
 		<?php include("include/header.php");?>
-
+        <!--	Header end  --><!-- FOR MORE PROJECTS visit: codeastro.com -->
         
-
+        	<!-- Banner   --->
         <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
             <div class="container">
                 <div class="row">
@@ -114,8 +114,9 @@ if(isset($_REQUEST['reg']))
                     </div>
                 </div>
             </div>
-        </div> -->
-		  
+        </div>
+         <!--	Banner   - -->
+		 
 		 
 		 
         <div class="page-wrappers login-body full-row bg-gray">
@@ -125,7 +126,7 @@ if(isset($_REQUEST['reg']))
                         <div class="login-right">
 							<div class="login-right-wrap">
 								<h1>Register</h1>
-								<p class="account-subtitle">Access the dashboard</p>
+								<p class="account-subtitle">Access to our dashboard</p>
 								<?php echo $error; ?><?php echo $msg; ?>
 								<!-- Form -->
 								<form method="post" enctype="multipart/form-data">
@@ -171,14 +172,16 @@ if(isset($_REQUEST['reg']))
 									<span class="or-line"></span>
 									<span class="span-or">or</span>
 								</div>
-							
-								 <div class="social-login">
+								
+								<!-- Social Login -->
+								<!-- <div class="social-login">
 									<span>Register with</span>
 									<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
 									<a href="#" class="google"><i class="fab fa-google"></i></a>
 									<a href="#" class="facebook"><i class="fab fa-twitter"></i></a>
 									<a href="#" class="google"><i class="fab fa-instagram"></i></a>
 								</div> -->
+								<!-- /Social Login -->
 								
 								<div class="text-center dont-have">Already have an account? <a href="login.php">Login</a></div>
 								
